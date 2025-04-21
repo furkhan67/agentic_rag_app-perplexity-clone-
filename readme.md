@@ -24,7 +24,7 @@ AI agents are software systems designed to autonomously perceive their environme
 
 ## 📘 Project Overview
 
-This notebook demonstrates how to combine various tools and techniques to create a powerful **domain-specific question-answering system** enhanced with real-time search and collaborative AI agents.
+This notebook demonstrates how to combine various tools and techniques to create a powerful **domain-specific question-answering system** enhanced with real-time search and collaborative AI agents similar to [perplexity.ai](https://perplexity.ai).
 
 ---
 
@@ -78,7 +78,7 @@ pip install tavily-python
 ```python
 from tavily import TavilyClient
 
-tavily_client = TavilyClient(api_key=os.getenv("TAVILY_API_KEY"))
+tavily_client = TavilyClient(api_key=TAVILY_API_KEY)
 ```
 
 #### Example
